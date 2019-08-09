@@ -1,18 +1,10 @@
 .navbar{
-    background: linear-gradient(to right,#f76e83 0%,#f45c44 100%);
+    background: linear-gradient(to right,#f44336 0%,#b71c1c 100%);
 }
 .search-itens{
     background-color: #FF000000;
     color: white;
     box-shadow: none;
-}
-.form-control.search-itens{
-    transition: all .3s ease-in-out;
-    width: 7vw;
-}
-.form-control.search-itens:focus{
-    transition: all .3s ease-in-out;
-    width: 12vw;
 }
 .search-itens::placeholder {
     color: white;
@@ -20,3 +12,22 @@
 .search-itens:focus::placeholder{
     color: grey;
 }
+.desktop-search .form-control{
+    transition: all .3s ease-in-out;
+    width: 7vw;
+}
+.desktop-search .form-control:focus{
+    transition: all .3s ease-in-out;
+    width: 12vw;
+}
+.desktop-mobile{
+    display: none;
+}
+@media (max-width: 992px) { 
+    .desktop-search{
+        display: none;
+    }
+    .desktop-mobile{
+        display: inline;
+    }
+ }
