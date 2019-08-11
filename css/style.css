@@ -1,6 +1,12 @@
 .navbar{
     background: linear-gradient(to right,#f44336 0%,#b71c1c 100%);
 }
+.nav-link{
+    border-bottom: thin solid #FF000000;
+}
+.nav-link:hover{
+    border-bottom: thin solid white;
+}
 .search-itens{
     background-color: #FF000000;
     color: white;
@@ -22,6 +28,17 @@
 }
 .desktop-mobile{
     display: none;
+}
+.card-img-overlay{
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+.card-title{
+    text-decoration: underline;
+}
+.card-text{
+    display: inline;
+    background-image: linear-gradient(to bottom,white 90%,#b71c1c 10%);
 }
 @media (max-width: 992px) { 
     .desktop-search{
