@@ -36,9 +36,20 @@
 .card-title{
     text-decoration: underline;
 }
-.card-text{
+.card-text.whitered-bg{
     display: inline;
     background-image: linear-gradient(to bottom,white 90%,#b71c1c 10%);
+}
+.card{
+    overflow: hidden;
+}
+.card:hover > img:first-child {
+    filter: brightness(85%);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 @media (max-width: 992px) { 
     .desktop-search{
