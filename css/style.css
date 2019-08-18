@@ -33,23 +33,58 @@
     padding-left: 0.8rem;
     padding-right: 0.8rem;
 }
-.card-title{
+.card-title.card-title-overlay{
     text-decoration: underline;
 }
 .card-text.whitered-bg{
     display: inline;
     background-image: linear-gradient(to bottom,white 90%,#b71c1c 10%);
 }
-.card{
-    overflow: hidden;
-}
-.card:hover > img:first-child {
+.card:hover > img:first-child, .card-img:hover {
+    transition: all .1s ease-in-out;
     filter: brightness(85%);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+a.section-title{
+    color: #1a237e;
+    text-decoration: underline;
+}
+
+a.section-title:hover{
+    transition: all .3s ease-in-out;
+    color: #673ab7;
+}
+.card-section-title{
+    display: inline;
+    background-color: #b71c1c;
+    color: white
+}
+.card-aside{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #b2ebf2;
+}
+.card-header-aside{
+    background-color: white;
+}
+a.aside-title{
+    transition: all .3s ease-in-out;
+    background-color: white;
+    color:  #26c6da;
+    text-decoration: underline;
+}
+a.aside-title:hover{
+    color:  #673ab7;
+}
+.card-title a{
+    color: black;
+}
+.list-item-aside{
+    border-color: #b2ebf2;
 }
 @media (max-width: 992px) { 
     .desktop-search{
