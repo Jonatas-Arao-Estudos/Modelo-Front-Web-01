@@ -1,6 +1,16 @@
 .navbar{
     background: linear-gradient(to right,#f44336 0%,#b71c1c 100%);
 }
+.footer-list, .footer-list ul li{
+    background-color: #b71c1c;
+}
+.footer-description{
+    background: linear-gradient(30deg,#ff5252 40%,#ff1744 60%);
+}
+.footer-list ul li a{
+    text-decoration: none;
+    color: white;
+}
 .nav-link{
     border-bottom: thin solid #FF000000;
 }
@@ -26,9 +36,6 @@
     transition: all .3s ease-in-out;
     width: 12vw;
 }
-.desktop-mobile{
-    display: none;
-}
 .card-img-overlay{
     padding-left: 0.8rem;
     padding-right: 0.8rem;
@@ -50,13 +57,13 @@
     transform: scale(1.1);
 }
 a.section-title{
-    color: #1a237e;
+    color: #880e4f;
     text-decoration: underline;
 }
 
 a.section-title:hover{
     transition: all .3s ease-in-out;
-    color: #673ab7;
+    color: #f50057;
 }
 .card-section-title{
     display: inline;
@@ -66,7 +73,7 @@ a.section-title:hover{
 .card-aside{
     border-style: solid;
     border-width: 4px;
-    border-color: #b2ebf2;
+    border-color: #f8bbd0;
 }
 .card-header-aside{
     background-color: white;
@@ -74,23 +81,23 @@ a.section-title:hover{
 a.aside-title{
     transition: all .3s ease-in-out;
     background-color: white;
-    color:  #26c6da;
+    color:  #f50057;
     text-decoration: underline;
 }
 a.aside-title:hover{
-    color:  #673ab7;
+    color:  #880e4f;
 }
 .card-title a{
     color: black;
 }
 .list-item-aside{
-    border-color: #b2ebf2;
+    border-color: #f8bbd0;
 }
-@media (max-width: 992px) { 
-    .desktop-search{
-        display: none;
-    }
-    .desktop-mobile{
-        display: inline;
-    }
- }
+.button-aside{
+    border-color: #f50057;
+    color:  #f50057;
+}
+.button-aside:hover{
+    border-color: #f50057;
+    background-color: #f50057;
+}
