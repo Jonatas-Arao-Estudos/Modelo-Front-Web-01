@@ -1,0 +1,9 @@
+.page-title{
+    text-shadow: -3px 3.5px white;
+    background-color: #ef9a9a;
+    text-transform: uppercase;
+}
+.page-link, .page-link:hover{
+    border-color: #ef9a9a;
+    color: #f06292;
+}
