@@ -1,3 +1,6 @@
+body{
+    background-color: #ffebee;
+}
 .navbar{
     background: linear-gradient(to right,#f44336 0%,#b71c1c 100%);
 }
@@ -35,6 +38,17 @@
 .desktop-search .form-control:focus{
     transition: all .3s ease-in-out;
     width: 12vw;
+}
+a .card{
+    color: black;
+}
+a .card:hover{
+    transition: all .1s ease-in-out;
+    filter: brightness(97%);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
 }
 .card-img-overlay{
     padding-left: 0.8rem;
